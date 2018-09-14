@@ -71,23 +71,8 @@ namespace AGRol.Views
 
             vcwin.chara.stats.addExp(xp, (MainMethods.SkillEnum)lbSkills.SelectedIndex);
 
-            updateperks();
-
             vcwin.loadChar();
             refreshSkillList();
-        }
-
-        private void updateperks()
-        {
-            for (int i = 0; i < vcwin.chara.stats.perks.Length; i++)
-            {
-                int aux = 0;
-                while (aux < MainMethods.perks[i].reqLv.Length && vcwin.chara.stats.skills[i/3].lv >= MainMethods.perks[i].reqLv[aux])
-                {
-                    aux++;
-                }
-                vcwin.chara.stats.perks[i].lv = aux;
-            }
         }
     }
 }

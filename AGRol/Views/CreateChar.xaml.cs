@@ -114,29 +114,6 @@ namespace AGRol.Views
                 }
             }
 
-            if (chara.stats.perks.Length < MainMethods.perks.Length)
-            {
-                CharPerk[] oldpk = chara.stats.perks;
-                chara.stats.perks = new CharPerk[MainMethods.perks.Length];
-                for (int i = 0; i < MainMethods.perks.Length; i++)
-                {
-                    if (i < oldpk.Length)
-                    {
-                        chara.stats.perks[i] = oldpk[i];
-                    }
-                    else
-                    {
-                        chara.stats.perks[i] = new CharPerk { id = i };
-                    }
-                    int aux = 0;
-                    while (aux < MainMethods.perks[i].reqLv.Length && chara.stats.skills[i / 3].lv >= MainMethods.perks[i].reqLv[aux])
-                    {
-                        aux++;
-                    }
-                    chara.stats.perks[i].lv = aux;
-                }
-            }
-
             loadChar();
         }
 

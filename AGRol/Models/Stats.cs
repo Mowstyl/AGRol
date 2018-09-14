@@ -20,7 +20,6 @@ namespace AGRol.Models
         public int level;
         public int nextlv;
         public CharSkill[] skills;
-        public CharPerk[] perks;
 
         public void resetStats()
         {
@@ -31,7 +30,6 @@ namespace AGRol.Models
             level = 1;
             nextlv = 100;
             skills = new CharSkill[MainMethods.skills.Length];
-            perks = new CharPerk[MainMethods.skills.Length * 3];
 
             for (int i = 0; i < 6; i++)
             {
@@ -41,9 +39,6 @@ namespace AGRol.Models
             for (int i = 0; i < MainMethods.skills.Length; i++)
             {
                 skills[i] = new CharSkill { id = i };
-                perks[i * 3] = new CharPerk { id = i * 3 };
-                perks[i * 3 + 1] = new CharPerk { id = i * 3 + 1 };
-                perks[i * 3 + 2] = new CharPerk { id = i * 3 + 2 };
             }
         }
 
