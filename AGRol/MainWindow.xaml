@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="createc" Content="Create Char" HorizontalAlignment="Left" Margin="43,38,0,0" VerticalAlignment="Top" Width="75" Click="createc_Click"/>
+        <Button x:Name="btSave" Content="Save" HorizontalAlignment="Left" Margin="43,240,0,0" VerticalAlignment="Top" Width="75" Click="btSave_Click"/>
+        <Button x:Name="btLoad" Content="Load" HorizontalAlignment="Left" Margin="162,240,0,0" VerticalAlignment="Top" Width="75" Click="btLoad_Click"/>
+        <ListBox x:Name="lbChars" HorizontalAlignment="Left" Height="149" Margin="186,38,0,0" VerticalAlignment="Top" Width="283" SelectionChanged="lbChars_SelectionChanged"/>
+        <Button x:Name="btViewC" Content="View Char" HorizontalAlignment="Left" Margin="43,80,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="btViewC_Click"/>
+
     </Grid>
 </Window>

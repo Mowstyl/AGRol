@@ -1,0 +1,15 @@
+﻿<Window x:Class="AGRol.Views.SkillView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AGRol.Views"
+        mc:Ignorable="d"
+        Title="SkillView" Height="300" Width="429.341">
+    <Grid>
+        <ListBox x:Name="lbSkills" HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" VerticalAlignment="Top" Width="272" SelectionChanged="lbSkills_SelectionChanged"/>
+        <Button x:Name="btAddXp" Content="Add XP" HorizontalAlignment="Left" Margin="313,81,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="btAddXp_Click"/>
+        <TextBox x:Name="tbXP" HorizontalAlignment="Left" Height="23" Margin="313,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" PreviewTextInput="NumberValidationTextBox" IsEnabled="False" TextChanged="tbXP_TextChanged"/>
+
+    </Grid>
+</Window>

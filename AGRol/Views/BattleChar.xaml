@@ -1,0 +1,16 @@
+﻿<Window x:Class="AGRol.Views.BattleChar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AGRol.Views"
+        mc:Ignorable="d"
+        Title="BattleChar" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label" Content="HP" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="AC" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbHitPoints" HorizontalAlignment="Left" Height="23" Margin="40,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"/>
+        <TextBox x:Name="tbArmorClass" HorizontalAlignment="Left" Height="23" Margin="40,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"/>
+
+    </Grid>
+</Window>
