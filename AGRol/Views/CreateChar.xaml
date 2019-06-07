@@ -77,17 +77,16 @@
         <Label x:Name="label19" Content="DRAGON BREATH" HorizontalAlignment="Left" Margin="380,377,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label20" Content="SPELLS or MAGIC STAFF" HorizontalAlignment="Left" Margin="380,405,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label21" Content="Languages:" HorizontalAlignment="Left" Margin="32,484,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="tbLanguages" HorizontalAlignment="Left" Height="23" Margin="102,486,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="382" IsEnabled="False"/>
-        <CheckBox x:Name="chkLanC" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="102,514,0,0" VerticalAlignment="Top" IsEnabled="False" IsChecked="True">
+        <CheckBox x:Name="chkLanC" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="102,489,0,0" VerticalAlignment="Top" IsEnabled="False" IsChecked="True">
             <TextBlock FlowDirection="LeftToRight" Text="Antroz" />
         </CheckBox>
-        <CheckBox x:Name="chkLanG" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="177,514,0,0" VerticalAlignment="Top" IsEnabled="False" Checked="chkLanG_Checked" Unchecked="chkLanG_Unchecked">
+        <CheckBox x:Name="chkLanG" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="177,489,0,0" VerticalAlignment="Top" IsEnabled="False" Checked="chkLanG_Checked" Unchecked="chkLanG_Unchecked">
             <TextBlock FlowDirection="LeftToRight" Text="Gatusian" />
         </CheckBox>
-        <CheckBox x:Name="chkLanR" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="252,514,0,0" VerticalAlignment="Top" IsEnabled="False" Checked="chkLanR_Checked" Unchecked="chkLanR_Unchecked">
+        <CheckBox x:Name="chkLanR" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="252,489,0,0" VerticalAlignment="Top" IsEnabled="False" Checked="chkLanR_Checked" Unchecked="chkLanR_Unchecked">
             <TextBlock FlowDirection="LeftToRight" Text="Rokrok" />
         </CheckBox>
-        <CheckBox x:Name="chkLanA" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="327,514,0,0" VerticalAlignment="Top" IsEnabled="False">
+        <CheckBox x:Name="chkLanA" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="102,514,0,0" VerticalAlignment="Top" IsEnabled="False">
             <TextBlock FlowDirection="LeftToRight" Text="God" />
         </CheckBox>
         <Label x:Name="labQuirk" Content="Quirks:" HorizontalAlignment="Left" Margin="32,548,0,0" VerticalAlignment="Top"/>
